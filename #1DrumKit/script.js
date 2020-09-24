@@ -20,4 +20,4 @@ function endPlay(e) {
 window.addEventListener('keydown', play);
 
 const keys = document.querySelectorAll('.key');
-keys.forEach(key => key.addEventListener('transitionend', removeTransition));
+keys.forEach(key => key.addEventListener('transitionend', endPlay));
