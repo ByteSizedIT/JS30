@@ -22,7 +22,7 @@ html {
   }
 
 
-  input:checked + p {
+  input:checked + label {
     background: #F9F9F9;
     text-decoration: line-through;
   }
@@ -31,7 +31,7 @@ html {
     margin: 20px;
   }
 
-  p {
+  label {
     margin: 0;
     padding: 20px;
     transition: background 0.2s;
