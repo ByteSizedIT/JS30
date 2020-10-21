@@ -69,6 +69,10 @@ html {
   .plates input:checked + label:before {
     content: "🌮";
   }
+
+  form {
+    display: inline-flex;
+  }
   
   .add-items {
     margin-top: 20px;
